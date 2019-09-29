@@ -1,0 +1,56 @@
+header{
+    width: 100%;
+	left: 0; 
+	top: 0; 
+	position: fixed; 
+}
+.form-principal{
+    width: 100%;
+    text-align: center;
+    padding: 45px;
+}
+.title{
+    font-family:adventure;
+    font-size: 70px;
+}
+.graduacion{
+    font-family:Mobstex;
+    font-size: 35px;
+    text-align: justify;
+    padding: 30px;
+}
+.fecha{
+    font-family:Mobstex;
+    font-size: 35px;
+    text-align: justify;
+    padding: 30px;  
+}
+.ubicacion{
+    font-family:Mobstex;
+    font-size: 35px;
+    text-align: justify;
+    padding: 30px;  
+}
+.hoteles{
+    font-family:Mobstex;
+    font-size: 35px;
+    text-align: justify;
+    padding: 30px;  
+}
+.despedida{
+    font-family:Mobstex;
+    font-size: 35px;
+    text-align: justify;
+    padding: 30px; 
+}
+.grad:hover .move-down {
+    transform: translate(0,350px);
+    -webkit-transform: translate(0,350px);
+    -o-transform: translate(0,350px); 
+    -moz-transform: translate(0,350px);
+}
+
+@font-face{
+	font-family: adventure;
+    src: url(Adventure.ttf);
+}
